@@ -1,24 +1,24 @@
 # Strelka Code Style Eslint configuration
 
-Basically based on [JS standard Code Style](http://standardjs.com) with specific additions (see `index.js`)
+Full description coming soon...
+Based on [JS standard Code Style](http://standardjs.com) with additions (see `index.js`)
 
-Full rules description coming soon...
+## Quick start
+
+```bash
+npm i -D eslint babel-eslint eslint-{config-{standard,standard-jsx,strelka},plugin-{meteor,promise,react,standard}} && echo '{ "extends": [ "strelka" ] }' >> .eslintrc && echo '.meteor\nnode_modules\npublic\nprivate' >> .eslintignore && ./node_modules/.bin/eslint . --ext=js,jsx
+```
 
 
 ## Setup in new project
 
-- Install Eslint globally and in project:
+- Install Eslint in project:
 
   ```bash
-  $ npm i -g eslint
   $ npm i -D eslint
-  ```
-
-- Install dependencies
-
-  ```bash
+  # and dependencies
   $ npm i -D babel-eslint
-  $ npm i -D eslint-config-{standard,standard-jsx} eslint-plugin-{meteor,promise,react,standard}
+  $ npm i -D eslint-{config-{standard,standard-jsx},plugin-{meteor,promise,react,standard}}
   ```
 
 - Install strelka config
@@ -44,8 +44,8 @@ Full rules description coming soon...
   private
   ```
 
-- Check Code Style `eslint . --ext=js,jsx`
-- (Optional) Fix some Code Style errors with `eslint . --fix --ext=js,jsx`
+- Check Code Style `./node_modules/.bin/eslint . --ext=js,jsx`
+- (Optional) Fix some Code Style errors with `./node_modules/.bin/eslint . --fix --ext=js,jsx`
 
 ## Usage with Sublime Text
 
