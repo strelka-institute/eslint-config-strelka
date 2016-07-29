@@ -10,24 +10,26 @@ npm i -D eslint babel-eslint eslint-{config-{standard,standard-jsx,strelka},plug
 ```
 
 
-## Setup in new project
+## Setup
 
-- Install Eslint in project:
+#### Dependencies
 
-  ```bash
-  $ npm i -D eslint
-  # and dependencies
-  $ npm i -D babel-eslint
-  $ npm i -D eslint-{config-{standard,standard-jsx},plugin-{meteor,promise,react,standard}}
-  ```
+```bash
+$ npm i -D eslint
+$ npm i -D babel-eslint
+$ npm i -D eslint-{config-{standard,standard-jsx},plugin-{meteor,promise,react,standard}}
+```
 
-- Install strelka config
+
+#### Installation
+
+1. Install strelka config
 
   ```bash
   $ npm i -D eslint-config-strelka
   ```
 
-- Create `.eslintrc` in project folder with following content:
+2. Create `.eslintrc` in project folder with following content:
 
   ```json
   {
@@ -35,7 +37,7 @@ npm i -D eslint babel-eslint eslint-{config-{standard,standard-jsx,strelka},plug
   }
   ```
 
-- Additionally create `.eslintignore` with list of ignored files:
+3. Additionally create `.eslintignore` with list of ignored files:
 
   ```
   .meteor
@@ -44,10 +46,11 @@ npm i -D eslint babel-eslint eslint-{config-{standard,standard-jsx,strelka},plug
   private
   ```
 
-- Check Code Style `./node_modules/.bin/eslint . --ext=js,jsx`
-- (Optional) Fix some Code Style errors with `./node_modules/.bin/eslint . --fix --ext=js,jsx`
+4. Check Code Style `./node_modules/.bin/eslint . --ext=js,jsx`
+5. (Optional) Fix some Code Style errors with `./node_modules/.bin/eslint . --fix --ext=js,jsx`
 
-## Usage with Sublime Text
+
+### Usage with Sublime Text
 
 1. Install Eslint globally with `npm i -g eslint`
 2. Install Sublime packages:
