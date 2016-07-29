@@ -5,8 +5,6 @@ Basically based on [JS standard Code Style](http://standardjs.com) with specific
 Full rules description coming soon...
 
 
-
-
 ## Setup in new project
 
 - Install Eslint globally and in project:
