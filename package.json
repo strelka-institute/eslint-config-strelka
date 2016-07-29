@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "babel-eslint": "^6.1.2",
     "eslint-config-standard": "^5.3.5",
     "eslint-config-standard-jsx": "^2.0.0",

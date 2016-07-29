@@ -1,18 +1,33 @@
 # Strelka Code Style Eslint configuration
 
-Rules desctiption comming soon...
+Basically based on [JS standard Code Style](http://standardjs.com) with specific additions (see `index.js`)
+
+Full rules description coming soon...
+
+
 
 
 ## Setup in new project
 
-- Install eslint globaly and in project:
+- Install Eslint globally and in project:
 
   ```bash
   $ npm i -g eslint
   $ npm i -D eslint
   ```
 
-- Install Strelka config `npm i -D eslint-config-strelka`
+- Install dependencies
+
+  ```bash
+  $ npm i -D eslint-config-{standard,standard-jsx} eslint-plugin-{meteor,promise,react,standard}
+  ```
+
+- Install strelka config
+
+  ```bash
+  $ npm i -D eslint-config-strelka
+  ```
+
 - Create `.eslintrc` in project folder with following content:
 
   ```json
@@ -30,10 +45,12 @@ Rules desctiption comming soon...
   private
   ```
 
+- Check Code Style `eslint . --ext=js,jsx`
+- (Optional) Fix some Code Style errors with `eslint . --fix --ext=js,jsx`
 
 ## Usage with Sublime Text
 
-1. Install eslint globally `npm i -g eslint`
+1. Install Eslint globally with `npm i -g eslint`
 2. Install Sublime packages:
     1. `SublimeLinter`
     2. `SublimeLinter-contrib-eslint`
