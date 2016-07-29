@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-strelka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-config-standard-jsx": "^2.0.0",
+    "eslint-plugin-meteor": "^3.6.0",
+    "eslint-plugin-output-todo-comments": "0.0.6",
+    "eslint-plugin-promise": "^2.0.0",
+    "eslint-plugin-react": "^5.2.2",
+    "eslint-plugin-standard": "^2.0.0"
+  }
+}
