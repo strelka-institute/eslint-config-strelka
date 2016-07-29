@@ -1,7 +1,7 @@
 module.exports = {
   parser: 'babel-eslint',
   extends: [ 'standard', 'standard-jsx' ],
-  plugins: [ 'meteor', 'output-todo-comments' ],
+  plugins: [ 'meteor' ],
   globals: { fetch: true },
   rules: {
     'space-before-function-paren': [ 2, 'never' ],
@@ -15,7 +15,6 @@ module.exports = {
         'args': 'none',
       },
     ],
-    'no-multiple-empty-lines': [ 'error', { 'max': 2 } ],
-    'output-todo-comments/output-todo-comments': 1,
+    'no-multiple-empty-lines': [ 'error', { 'max': 2 } ]
   }
 }
