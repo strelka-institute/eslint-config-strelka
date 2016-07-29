@@ -64,8 +64,7 @@ Full rules description coming soon...
           "--env=es6"
         ],
         "excludes": []
-      },
-      //...
+      }
     },
     "syntax_map": {
       "javascript (babel)": "javascript",
