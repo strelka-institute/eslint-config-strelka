@@ -17,6 +17,7 @@ Full rules description coming soon...
 - Install dependencies
 
   ```bash
+  $ npm i -D babel-eslint
   $ npm i -D eslint-config-{standard,standard-jsx} eslint-plugin-{meteor,promise,react,standard}
   ```
 
