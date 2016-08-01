@@ -1,5 +1,6 @@
 module.exports = {
   parser: 'babel-eslint',
+  env: { meteor: true },
   extends: [ 'standard', 'standard-jsx' ],
   plugins: [ 'meteor' ],
   globals: { fetch: true },
