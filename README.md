@@ -1,9 +1,10 @@
-# Strelka Code Style Eslint configuration
+# Deprecated: <br> Strelka Code Style Eslint configuration
 
-Full description coming soon...
-Based on [JS standard Code Style](http://standardjs.com) with additions (see `index.js`)
+Use [Standard JS](http://standardjs.com) instead.
 
-## Quick start
+---
+
+## Install
 
 ```bash
 npm i -D eslint babel-eslint eslint-{config-{standard,standard-jsx,strelka},plugin-{meteor,promise,react,standard}} && echo '{ "extends": [ "strelka" ] }' >> .eslintrc && echo '.meteor\nnode_modules\npublic\nprivate' >> .eslintignore && ./node_modules/.bin/eslint . --ext=js,jsx
