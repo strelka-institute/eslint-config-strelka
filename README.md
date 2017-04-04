@@ -10,7 +10,7 @@
 1. Install:
 
   ```bash
-  $ yarn -D eslint eslint-{config-{standard,strelka},plugin-{promise,import,node,standard}}
+  $ yarn add eslint eslint-{config-{standard,strelka},plugin-{promise,import,node,standard}}
   ```
 
 2. In `.eslintrc`:
@@ -24,7 +24,7 @@
 1. Install:
 
   ```bash
-  $ yarn -D eslint eslint-{config-{standard,standard-jsx,strelka},plugin-{promise,import,node,react,standard}}
+  $ yarn add eslint eslint-{config-{standard,standard-jsx,strelka},plugin-{promise,import,node,react,standard}}
   ```
 
 2. In `.eslintrc`:
@@ -36,7 +36,7 @@
 3. Usage:
 
   ```bash
-  $ eslint . --ext=js,jsx
+  $ eslint --ext js,jsx .
   ```
 
 ### Vue
@@ -44,7 +44,7 @@
 1. Install:
 
   ```bash
-  $ yarn -D eslint eslint-{config-{standard,vue,strelka},plugin-{promise,import,node,html,vue,standard}}
+  $ yarn add eslint eslint-{config-{standard,vue,strelka},plugin-{promise,import,node,html,vue,standard}}
   ```
 
 2. In `.eslintrc`:
@@ -56,7 +56,7 @@
 3. Usage:
 
   ```bash
-  $ eslint . --ext=js,vue
+  $ eslint --ext js,vue .
   ```
 
 ## Editors
