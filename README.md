@@ -1,62 +1,72 @@
-# Deprecated: <br> Strelka Code Style Eslint configuration
+# eslint-config-strelka
 
-Use [Standard JS](http://standardjs.com) instead.
-
----
-
-## Install
-
-```bash
-npm i -D eslint babel-eslint eslint-{config-{standard,standard-jsx,strelka},plugin-{meteor,promise,react,standard}} && echo '{ "extends": [ "strelka" ] }' >> .eslintrc && echo '.meteor\nnode_modules\npublic\nprivate' >> .eslintignore && ./node_modules/.bin/eslint . --ext=js,jsx
-```
+> Based on [Standard JS](http://standardjs.com)
 
 
-## Setup
+## Quick Start
 
-#### Dependencies
+### Plain JS 
 
-```bash
-$ npm i -D eslint
-$ npm i -D babel-eslint
-$ npm i -D eslint-{config-{standard,standard-jsx},plugin-{meteor,promise,react,standard}}
-```
-
-
-#### Installation
-
-1. Install strelka config
+1. Install:
 
   ```bash
-  $ npm i -D eslint-config-strelka
+  $ yarn -D eslint eslint-{config-{standard,strelka},plugin-{promise,import,node,standard}}
   ```
 
-2. Create `.eslintrc` in project folder with following content:
+2. In `.eslintrc`:
 
   ```json
-  {
-    "extends": [ "strelka" ]
-  }
+  { "extends": "strelka" }
   ```
 
-3. Additionally create `.eslintignore` with list of ignored files:
+### React
 
+1. Install:
+
+  ```bash
+  $ yarn -D eslint eslint-{config-{standard,standard-jsx,strelka},plugin-{promise,import,node,react,standard}}
   ```
-  .meteor
-  node_modules
-  public
-  private
+
+2. In `.eslintrc`:
+
+  ```json
+  { "extends": "strelka/react" }
   ```
 
-4. Check Code Style `./node_modules/.bin/eslint . --ext=js,jsx`
-5. (Optional) Fix some Code Style errors with `./node_modules/.bin/eslint . --fix --ext=js,jsx`
+3. Usage:
 
+  ```bash
+  $ eslint . --ext=js,jsx
+  ```
 
-### Usage with Sublime Text
+### Vue
+
+1. Install:
+
+  ```bash
+  $ yarn -D eslint eslint-{config-{standard,vue,strelka},plugin-{promise,import,node,html,vue,standard}}
+  ```
+
+2. In `.eslintrc`:
+
+  ```json
+  { "extends": "strelka/vue" }
+  ```
+
+3. Usage:
+
+  ```bash
+  $ eslint . --ext=js,vue
+  ```
+
+## Editors
+
+### Sublime Text
 
 1. Install Eslint globally with `npm i -g eslint`
 2. Install Sublime packages:
-    1. `SublimeLinter`
-    2. `SublimeLinter-contrib-eslint`
+    - `SublimeLinter`
+    - `SublimeLinter-contrib-eslint`
 3. Open `SublimeLinter Settings: User` and add this options:
 
   ```json
@@ -64,10 +74,7 @@ $ npm i -D eslint-{config-{standard,standard-jsx},plugin-{meteor,promise,react,s
     "linters": {
       "eslint": {
         "@disable": false,
-        "args": [
-          "--ext=js,jsx,vue",
-          "--env=es6"
-        ],
+        "args": [ "--ext=js,jsx,vue" ],
         "excludes": []
       }
     },
@@ -76,4 +83,7 @@ $ npm i -D eslint-{config-{standard,standard-jsx},plugin-{meteor,promise,react,s
       "vue": "javascript"
     },
   }
-  ```
+  ``` 
+
+---
+Strelka
