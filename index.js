@@ -2,14 +2,6 @@ module.exports = {
   extends: [ 'standard' ],
   globals: { fetch: true },
   rules: {
-    'no-magic-numbers': [
-      1,
-      {
-        'ignore': [ -1, 0, 1, 2 ],
-        'ignoreArrayIndexes': true,
-        'detectObjects': true
-      }
-    ],
     'sort-imports': [
       1,
       {
