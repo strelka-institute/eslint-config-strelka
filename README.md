@@ -3,9 +3,9 @@
 > Based on [Standard JS](http://standardjs.com)
 
 
-## Quick Start
+## Setup
 
-### Plain JS 
+### General
 
 1. Install:
 
@@ -59,9 +59,9 @@
   $ eslint --ext js,vue .
   ```
 
-## Editors
+### Editors
 
-### Sublime Text
+#### Sublime Text
 
 1. Install Eslint globally with `npm i -g eslint`
 2. Install Sublime packages:
@@ -84,6 +84,17 @@
     },
   }
   ``` 
+  
+## Rules
+
+> TODO
+
+  
+## Related
+
+- [Standard.js](http://standardjs.com/) - One JavaScript Style to Rule Them All
+- [ESLint](http://eslint.org/) - The pluggable linting utility for JavaScript and JSX
+
 
 ---
 Strelka
