@@ -9,8 +9,10 @@ module.exports = {
     'react/jsx-sort-props': [
       1,
       {
-        'shorthandLast': true,
-        'callbacksLast': true
+        shorthandLast: true,
+        callbacksLast: true,
+        noSortAlphabetically: true,
+        reservedFirst: [ 'key', 'ref' ]
       }
     ],
     'react/jsx-key': 1
