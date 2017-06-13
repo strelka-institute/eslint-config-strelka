@@ -12,14 +12,9 @@
   "peerDependencies": {
     "eslint": ">= 3",
     "eslint-config-standard": "*",
-    "eslint-config-standard-jsx": "*",
-    "eslint-config-vue": "*",
-    "eslint-plugin-html": ">= 2",
     "eslint-plugin-import": "*",
     "eslint-plugin-node": "*",
     "eslint-plugin-promise": "*",
-    "eslint-plugin-react": ">= 6",
-    "eslint-plugin-standard": "*",
-    "eslint-plugin-vue": "*"
+    "eslint-plugin-standard": "*"
   }
 }
