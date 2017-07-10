@@ -2,14 +2,6 @@ module.exports = {
   extends: [ 'standard' ],
   globals: { fetch: true },
   rules: {
-    'sort-imports': [
-      1,
-      {
-        'ignoreCase': false,
-        'ignoreMemberSort': false,
-        'memberSyntaxSortOrder': [ 'none', 'all', 'multiple', 'single' ]
-      }
-    ],
     'no-unused-vars': [
       2,
       {
