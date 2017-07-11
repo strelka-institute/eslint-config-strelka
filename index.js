@@ -11,7 +11,7 @@ module.exports = {
       }
     ],
     'prefer-promise-reject-errors': 1,
-    'prefer-const': 2,
+    'prefer-const': [ 2, { destructuring: 'all' } ],
     'no-shadow': 2,
     'array-bracket-spacing': [ 2, 'always' ],
     'object-curly-spacing': [ 2, 'always' ]
