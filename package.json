@@ -10,6 +10,9 @@
     "strelka"
   ],
   "license": "ISC",
+  "scripts": {
+    "deploy": "np"
+  },
   "peerDependencies": {
     "eslint": ">= 3",
     "eslint-config-standard": "*",
@@ -17,5 +20,8 @@
     "eslint-plugin-node": "*",
     "eslint-plugin-promise": "*",
     "eslint-plugin-standard": "*"
+  },
+  "devDependencies": {
+    "np": "^2.16.0"
   }
 }
