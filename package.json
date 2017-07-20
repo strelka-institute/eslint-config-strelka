@@ -2,6 +2,7 @@
   "name": "eslint-config-strelka",
   "version": "2.1.3",
   "main": "index.js",
+  "repository": "strelka-institute/eslint-config-strelka",
   "keywords": [
     "eslint",
     "standard",
