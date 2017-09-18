@@ -5,8 +5,10 @@ module.exports = {
     'no-unused-vars': [
       2,
       {
+        'args': 'none',
         'vars': 'all',
-        'args': 'after-used',
+        'varsIgnorePattern': '^_',
+        'caughtErrorsIgnorePattern': '^_',
         'ignoreRestSiblings': true
       }
     ],
