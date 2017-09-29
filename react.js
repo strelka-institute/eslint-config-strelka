@@ -15,6 +15,10 @@ module.exports = {
         reservedFirst: [ 'key', 'ref' ]
       }
     ],
-    'react/jsx-key': 1
+    'react/jsx-key': 1,
+    'react/jsx-closing-bracket-location': 2,
+    'react/jsx-no-comment-textnodes': 2,
+    'react/jsx-closing-tag-location': 2,
+    'react/no-deprecated': 1
   })
 }
